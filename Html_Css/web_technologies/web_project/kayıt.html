@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+	<link href="css/stilim.css" rel="stylesheet">
+    <title>web teknolojileri proje</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/modern-business.css" rel="stylesheet">
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.26/angular.min.js"></script>
+
+	<!-- Modules -->
+    <script src="js/app.js"></script>
+	<!-- Controllers -->
+    <script src="js/controllers/MainController.js"></script>
+
+	
+	 <script>
+	function kontrol(){
+	
+	alert(document.getElementByID('parola').value);
+	alert("merhaba");
+	}
+ </script>
+ 
+  </head>
+
+  <body ng-app="myApp" ng-controller="MainController">
+
+    <!-- Navigation -->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">Portekiz Milli Takımı Hakkında Herşey</a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+		  
+            <li class="nav-item">
+              <a class="nav-link" href="haberler.html">Haberler</a>
+            </li>
+			
+            <li class="nav-item">
+              <a class="nav-link" href="yorumlar.html">Yorumlar</a>
+            </li>
+			
+            <li class="nav-item">
+              <a class="nav-link" href="kayıt.html">Kullanıcı Girişi</a>
+            </li>
+           </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Page Content -->
+    <div class="container">
+
+      <!-- Page Heading/Breadcrumbs -->
+      <h1 class="mt-4 mb-3">Kullanıcı Kayıt Sayfası
+        <small></small>
+      </h1>
+
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item">
+          <a href="index.html">Ana Sayfa</a>
+        </li>
+        <li class="breadcrumb-item active">Kullanıcı Kayıt Sayfası</li>
+      </ol>
+
+      <!-- Image Header -->
+      
+       
+	   
+	   
+	   <p> Kullanıcı Kayıt Sayfası </p>
+
+		Kullanıcı Adı: <input type="text" name="kad" class="inputText"> <br>
+		Parola: <input type="text" name="parola" class="inputText" id="parola"> <br>
+		Parola Tekrar: <input type="text" name="tparola" class="inputText" id="tparola"> <br>
+		<input type="submit" value="kaydet">
+
+		<input type="button" value="kontrol" onclick="kontrol()">
+			  
+	  <hr>
+	  <hr>     
+	  <hr>
+	  <hr>
+	  <hr>
+
+    <!-- Footer -->
+    <footer class="py-5 bg-dark">
+      <div class="container">
+        <p class="m-0 text-center text-white">Copyright &copy;  2018</p>
+      </div>
+      <!-- /.container -->
+    </footer>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  </body>
+
+</html>

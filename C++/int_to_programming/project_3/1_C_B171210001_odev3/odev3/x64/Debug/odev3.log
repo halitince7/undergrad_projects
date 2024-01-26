@@ -1,0 +1,7 @@
+﻿  stdafx.cpp
+  odev3.cpp
+c:\users\mathatin\desktop\1_c_b171210001_odev3\odev3\odev3.cpp(41): warning C4267: 'başlatılıyor': 'size_t' - 'int' dönüşümü; veri kaybı olabilir
+c:\users\mathatin\desktop\1_c_b171210001_odev3\odev3\odev3.cpp(87): warning C4267: '+=': 'size_t' - 'int' dönüşümü; veri kaybı olabilir
+c:\users\mathatin\desktop\1_c_b171210001_odev3\odev3\odev3.cpp(117): warning C4267: 'başlatılıyor': 'size_t' - 'int' dönüşümü; veri kaybı olabilir
+c:\users\mathatin\desktop\1_c_b171210001_odev3\odev3\odev3.cpp(138): warning C4267: 'başlatılıyor': 'size_t' - 'int' dönüşümü; veri kaybı olabilir
+  odev3.vcxproj -> C:\Users\mathatin\Desktop\1_C_B171210001_odev3\x64\Debug\odev3.exe

@@ -1,0 +1,3 @@
+﻿  1_C_B171210001_odev4.cpp
+c:\users\acer\source\repos\1_c_b171210001_odev4\1_c_b171210001_odev4\1_c_b171210001_odev4.cpp(36): warning C4244: 'bağımsız değişken': 'time_t' - 'unsigned int' dönüşümü; veri kaybı olabilir
+  1_C_B171210001_odev4.vcxproj -> C:\Users\ACER\source\repos\1_C_B171210001_odev4\Debug\1_C_B171210001_odev4.exe

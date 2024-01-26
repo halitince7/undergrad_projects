@@ -1,0 +1,34 @@
+
+
+.metin{
+	background-color:blue;
+	color: pink;
+	font-family: Times New Roman, Times, serif; 
+	font-size: 15pt;
+}
+
+.baslik{
+	
+}
+
+
+.inputText
+{
+	background-color:darkcyan;
+	color:white;
+	
+}
+
+#parola{
+	font-size:14pt;
+}
+
+#tparola{
+	font-size:14pt;
+}
+
+body {
+  padding-top: 54px;
+}
+
+
